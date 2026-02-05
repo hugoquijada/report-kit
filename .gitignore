@@ -1,0 +1,57 @@
+# .gitignore genérico para proyectos PHP
+
+# Dependencias de Composer
+/vendor/
+
+# Archivos de entorno y secretos (mantener .env.example)
+/.env
+.env.*
+!.env.example
+
+# Cachés, logs y temporales
+*.log
+logs/
+cache/
+tmp/
+temp/
+*.cache
+
+# Archivos y builds
+build/
+dist/
+vendor-bin/
+composer.phar
+
+# PHPUnit / testing / cobertura
+phpunit.xml
+.phpunit.result.cache
+coverage/
+coverage.xml
+*.coverdata
+
+# IDEs y editores
+.idea/
+*.iml
+.vscode/
+nbproject/
+*.sublime-*
+*.swp
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Bases de datos locales / volátiles
+*.sqlite
+*.sqlite3
+*.sql
+
+# Profilers y archivos generados
+cachegrind.out.*
+*.prof
+
+# Varios temporales/respaldos
+*.bak
+*.tmp

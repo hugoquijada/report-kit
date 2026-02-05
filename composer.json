@@ -1,0 +1,30 @@
+{
+  "name": "hqsoft/reportkit",
+  "description": "Framework para generar reportes y documentos en PDF, Excel y CSV mediante un layout de 24 columnas.",
+  "keywords": [
+    "pdf",
+    "excel",
+    "csv",
+    "reportes",
+    "php",
+    "layout"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "mpdf/mpdf": "^8.2",
+    "phpoffice/phpspreadsheet": "^5.2",
+    "box/spout": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "hqsoft\\reportkit\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Hugo Quijada",
+      "email": "hugo.quijada.garcia@gmail.com"
+    }
+  ]
+}

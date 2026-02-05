@@ -1,0 +1,18 @@
+table {
+  table-layout: fixed !important;
+  border-collapse: collapse !important;
+  width: 100%;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.rk-table {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.rk-table td {
+  padding: 5px;
+}
