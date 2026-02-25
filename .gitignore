@@ -55,3 +55,6 @@ cachegrind.out.*
 # Varios temporales/respaldos
 *.bak
 *.tmp
+
+composer.lock
+README.pdf

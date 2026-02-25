@@ -14,7 +14,7 @@
   "require": {
     "mpdf/mpdf": "^8.2",
     "phpoffice/phpspreadsheet": "^5.2",
-    "box/spout": "^3.3"
+    "openspout/openspout": "^5.3"
   },
   "autoload": {
     "psr-4": {
