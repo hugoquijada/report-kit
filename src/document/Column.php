@@ -57,8 +57,8 @@ class Column {
     return $this;
   }
 
-  public function image(string $src, ?int $width = null, ?int $height = null): self {
-    $this->contents[] = new CellImage($src, $width, $height);
+  public function image(string $src, ?int $width = null, ?int $height = null, ?string $alt = null, ?string $style = null): self {
+    $this->contents[] = new CellImage($src, $width, $height, $alt, $style);
     return $this;
   }
 
