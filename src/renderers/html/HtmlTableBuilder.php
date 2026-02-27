@@ -158,12 +158,13 @@ class HtmlTableBuilder {
       }
 
       if ($item instanceof CellImage) {
-        $style = '';
 
         $w = $item->width ? "width=\"{$item->width}\"" : "";
         $h = $item->height ? "height=\"{$item->height}\"" : "";
+        $alt = $item->alt ? "alt=\"{$item->alt}\"" : "";
+        $style = $item->style ? "style=\"{$item->style}\"" : "";
 
-        $html .= "<img src=\"{$item->src}\" $w $h style=\"$style\">";
+        $html .= "<img src=\"{$item->src}\" $w $h $alt $style>";
         continue;
       }
     }
